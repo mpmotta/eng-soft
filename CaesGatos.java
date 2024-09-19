@@ -30,11 +30,11 @@ public abstract class CaesGatos extends Pet{
         System.out.println("Vacina do " + this.getNome() +  " realizada em " + hoje);
     }
     
-    public void comparRacao(int g){
+    public void comprarRacao(int g){
         System.out.println(g + "g de ração comprados.");
     }
     
-    public void comparRacao(double kg){
+    public void comprarRacao(double kg){
         System.out.println(kg + "kg de ração comprados.");
     }
     
