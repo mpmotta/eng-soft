@@ -1,11 +1,13 @@
 package revisao2;
 public abstract class Pet {
+    private String cpf;
     private String nome;
     private int anoNascimento;
     private double peso;
 
-    public Pet(String nome, int anoNascimento, double peso) {
+    public Pet(String nome, String cpf, int anoNascimento, double peso) {
         this.nome = nome;
+        this.cpf = cpf;
         this.anoNascimento = anoNascimento;
         this.peso = peso;
     }
@@ -17,6 +19,15 @@ public abstract class Pet {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
 
     public int getAnoNascimento() {
         return anoNascimento;
