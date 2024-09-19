@@ -7,5 +7,8 @@ public class Dog extends CaesGatos implements Veterinario {
         this.displasia = displasia;
     }
 
-    
+    public void tratarCatarata(String nome, String data){
+         System.out.println("cirurgia de catarata marcada" +
+        " para o cachorro " + nome + " no dia " + data);
+    }
 }
